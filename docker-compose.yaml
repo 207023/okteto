@@ -1,3 +1,5 @@
 services:
-  docker:
-    web: Dockerfile
+  xiaofei:
+    build: .
+    ports:
+      - "80:80"
