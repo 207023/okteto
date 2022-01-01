@@ -1,6 +1,7 @@
 services:
   okv:
     build: 
+    restart: always
     shm_size: 2.6gb
     ports:
       - "80:80"
