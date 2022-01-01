@@ -1,7 +1,6 @@
 services:
-  okv:
+  okv1:
     build: 
-    restart: always
     shm_size: 2.6gb
     ports:
       - "443:443"
